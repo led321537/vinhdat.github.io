@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile | Lê Vĩnh Đạt</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron:wght@600&display=swap" />
+        <link rel="icon" href="icons/favicon.ico" />
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <header class="header">
+            <h1>Trang cá nhân của Đạt</h1>
+            <img src="images/profile.jpg" alt="Ảnh đại diện của Lê Vĩnh Đạt" class="profile-image" />
+            <p>Chào mừng bạn đến với trang cá nhân của tôi!</p>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#introduction">Giới thiệu</a></li>
+                    <li><a href="#hobby">Sở thích</a></li>
+                    <li><a href="#personality">Tính cách</a></li>
+                    <li><a href="#education">Học vấn</a></li>
+                    <li><a href="#skills">Kỹ năng</a></li>
+                    <li><a href="#social">Mạng xã hội</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="introduction">
+                <h2>Giới thiệu</h2>
+                <p>Tôi là <strong>Lê Vĩnh Đạt</strong>, sinh năm 2005.</p>
+                <p>Tôi sinh ra ở <strong>An Giang</strong>, hiện tại tôi đang sinh sống và học tập tại <strong>TP.HCM</strong>.</p>
+                <p>Tôi là một người đam mê công nghệ thông tin và lập trình web.</p>
+                <button id="toggle-description">Hiện mô tả</button>
+                <div id="description" class="hidden">
+                    <p>Xin chào! Tôi là một người năng động, yêu thích công nghệ và thiết kế web.
+                    Trang này là portfolio cá nhân của tôi, nơi bạn có thể khám phá về sở thích,
+                    tính cách, học vấn và kỹ năng của tôi.</p>
+                </div>
+            </section>
+            <section id="hobby">
+                <h2>Sở thích</h2>
+                <p>Tôi có nhiều sở thích khác nhau, bao gồm:</p>
+                <ul>
+                    <li>Tìm hiểu về công nghệ, đặc biệt là lập trình web.</li>
+                    <li>Thích nghe nhạc, đặc biệt là nhạc EDM và Pop.</li>
+                    <li>Tôi thỉnh thoảng chơi game, đặc biệt là các game chiến thuật và nhập vai.</li>
+                    <li>Tôi thích khám phá những điều mới mẻ và học hỏi từ những người xung quanh.</li>
+                </ul>
+            </section>
+            <section id="personality">
+                <h2>Tính cách</h2>
+                <p>Tôi là một người thân thiện, hòa đồng và luôn sẵn sàng giúp đỡ người khác.</p>
+                <p>Tôi có tính kiên nhẫn và luôn cố gắng hoàn thiện bản thân.</p>
+                <p>Tôi thích làm việc nhóm và tin rằng sự hợp tác sẽ mang lại kết quả tốt hơn.</p>
+            </section>
+            <section id="education">
+                <h2>Học vấn</h2>
+                <p>Tôi là sinh viên năm thứ 2 hiện đang theo học tại <strong>Đại học Nguyễn Tất Thành</strong>, chuyên ngành <strong>Kỹ thuật phần mềm</strong>.</p>
+                <p>Tôi đã hoàn thành chương trình học phổ thông tại trường <strong>Trường THPT Tân Phong</strong>.</p>
+                <p>Tôi luôn cố gắng học hỏi và nâng cao kiến thức của mình trong lĩnh vực công nghệ thông tin.</p>
+            </section>
+            <section id="skills">
+                <h2>Kỹ năng</h2>
+                <p>Tôi là một lập trình viên đam mê về web</p>
+                <p>Tôi đang từng bước học hỏi và có nền tảng cơ bản về lập trình web.</p>
+                <p>Một số ngôn ngữ lập trình về web:</p>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Vue.js</li>
+                    <li>Node.js, Express</li>
+                </ul>
+            </section>
+            <section id="social">
+                <h2>Mạng xã hội</h2>
+                <p>Dưới đây là một số mạng xã hội của Đạt: </p>
+                <ul>
+                    <li><a href="https://www.facebook.com/atbita.2025" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.tiktok.com/@dathihungidol_193?lang=vi-VN" target="_blank">Tiktok</li></li>
+                    <li><a href="https://www.youtube.com/@athihung9506" target="_blank">Youtube</li></li>
+                </ul>
+            </section>
+            <section id="contact">
+                <h2>Liên hệ</h2>
+                <ul>
+                    <li>Email: <a href="mailto: ldat7174@gmail.com">ldat7174@gmail.com</a></li>
+                    <li>Điện thoại: <a href="tel:+0372382267">0372382267</a></li>
+                    <li>Địa chỉ: <a href="https://www.google.com/maps/place/">Tân Thuận, TPHCM</a></li>
+                </ul> 
+            </section>
+            <div id="clock">--:--:--</div>
+        </main>
+        <footer class="footer">
+            <p>© 2023 Lê Vĩnh Đạt. Tất cả quyền được bảo lưu.</p>
+        </footer>
+    </body>
+</html>
