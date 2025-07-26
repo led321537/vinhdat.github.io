@@ -1,7 +1,7 @@
 new Swiper('.swiper', { 
     loop: true, 
     spaceBetween: 30, 
-    slidesPerView: 2,
+    slidesPerView: "auto",
 
     // Pagination bullets 
     pagination: { 
